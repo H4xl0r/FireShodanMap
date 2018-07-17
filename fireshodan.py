@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf8') #fix for output errors
 
 def get_lat_lon(ip):
 
-	r = requests.get("https://freegeoip.net/json/" + ip)
+	r = requests.get("http://ipstack.com/quickstart" + ip +"?access_key=_ipstackapikey_here")
         json_response = r.json()
         if json_response['latitude'] and json_response['longitude']:
             lat = json_response['latitude']
