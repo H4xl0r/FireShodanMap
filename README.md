@@ -8,6 +8,7 @@ FireShodanMap is a Realtime map that integrates [Firebase](https://firebase.goog
 We have a file named "fireshodan.py" responsible for filling the Firebase database, we need to change:
 
 <pre>
+[+] <b>ipstackapi_here</b> https://ipstack.com/quickstart get ipstack apikey and add it to the fireshodan.py 
 [+] <b>FILE_WITH_KEY.json</b> (Open the Credentials tab and click <b>Create credentials</b>.Create a server key. It will automatically download as a *.json file)
 [+] <b>KEY_FIREBASE_HERE</b> & Following Data (Open the Firebase Project and click <b>Add Firebase to your web application</b>)
 [+] <a href="https://account.shodan.io/">API_SHODAN_KEY</a>
